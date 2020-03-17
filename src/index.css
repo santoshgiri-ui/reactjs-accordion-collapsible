@@ -1,0 +1,58 @@
+body{
+  font-family: "ProximaNova","Century Gothic",Helvetica,Arial,sans-serif;
+  background-repeat: no-repeat;
+  background-position: center top, center bottom;
+  line-height: 1.66666em;
+  height: auto;
+  background-image: url(https://www.myrta.com/myRTAEtollTheme/themes/html/myRTAEtollTheme/assets/images/snsw/bg_body_top.jpg),
+  url(https://www.myrta.com/myRTAEtollTheme/themes/html/myRTAEtollTheme/assets/images/snsw/bg_body_bottom.jpg);
+}
+.Heading{
+display: flex;
+flex-direction: column;
+width: 74%;
+margin-left: 15%;
+background-color: #DF0303;
+color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 1%;
+font-family: "Gill Sans MT", "Gill Sans", "Trebuchet MS", Calibri, sans-serif;
+border-radius: 0px 15px 0px 0px;
+font-weight: 500;
+}
+
+.ui.accordion{
+  margin: 2% 15%;
+  background-color: #CCC;
+  padding: 15px;
+}
+
+.ui.accordion .title:not(.ui) {
+  padding:0.2em 0 !important;
+ }
+ .faq{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+    background-color: #DF0303;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1%;
+    font-family: "Gill Sans MT", "Gill Sans", "Trebuchet MS", Calibri, sans-serif;
+    border-radius: 0px 15px 0px 0px;
+    font-weight: 500;
+ }
+ .divFaq{
+   margin-top:4%;
+ }
+ .faq_intro{
+  color: #DF0303;
+  display: block;
+  line-height: 20px;
+  margin: 0px 15% 12px 15%;
+  font-size: 1.25em;
+  font-weight: normal;
+ }
