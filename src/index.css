@@ -24,7 +24,7 @@ font-weight: 500;
 
 .ui.accordion{
   margin: 2% 15%;
-  background-color: #CCC;
+  background-color: #F6F4F5;
   padding: 15px;
 }
 
@@ -56,3 +56,33 @@ font-weight: 500;
   font-size: 1.25em;
   font-weight: normal;
  }
+ table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 12px;
+}
+
+td, th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 8px;
+}
+th{
+  background-color: #CCCCCC;
+}
+tr:nth-child(even) {
+  background-color: #c8e8f9;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+.anchok-link{
+  margin-left: 10px;
+  text-decoration: underline;
+  color: #d20303
+}
+.sub-heading{
+  font-size: 12px;
+
+}
